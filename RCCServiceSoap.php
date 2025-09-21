@@ -1,10 +1,10 @@
 <?php
-// addresse playit de Nils l'autiste
-$firstIp = "147.185.221.24";
+
+$firstIp = "YOURSERVER_IP";
 $firstPort = 23693;
 
-// addresse playit de Stan l'autiste
-$secondIp = "147.185.221.25";
+
+$secondIp = "YOUR_SECONDIP;
 $secondPort = 13481;
 
 class RCCServiceSoap {
@@ -13,7 +13,7 @@ class RCCServiceSoap {
     public $url;
     public $renderFix;
 
-    function __construct($ip = "173.238.187.84", $port = 64989, $url = "retify.xyz", $renderFix = true) {
+    function __construct($ip = "PUTURIPHERE", $port = 64989, $url = "retify.xyz", $renderFix = true) {
         $this->ip = $ip;
         $this->port = $port;
         $this->url = $url;
