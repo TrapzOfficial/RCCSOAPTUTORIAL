@@ -3,11 +3,11 @@ Getting Started
 Set your server info
 
 // Replace with your server IP and port
-$firstIp = "147.185.221.24";
+$firstIp = "iphere";
 $firstPort = 23693;
 
 // Another server if you have it
-$secondIp = "147.185.221.25";
+$secondIp = "OPTIONAL SECOND SERVER IP";
 $secondPort = 13481;
 
 
@@ -22,9 +22,9 @@ URL (your server URL)
 Render Fix (fixes messy output from some servers)
 
 $soap = new RCCServiceSoap(
-    $ip = "173.238.187.84",  // Your server IP
+    $ip = "serverip",  // Your server IP
     $port = 64989,            // Your server port
-    $url = "retify.xyz",      // Your server URL
+    $url = "",      // Your server URL
     $renderFix = true         // Keep it on, it helps with formatting
 );
 
